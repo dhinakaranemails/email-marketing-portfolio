@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Portfolio website, Version 1.7: Email Designs page -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Email Designs | Dhinakaran</title>
+<meta name="description" content="Sample email designs for ecommerce brands: activewear, jewellery, and beauty and skincare.">
+<link rel="icon" href="assets/dk-logo-icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="top">
+  <nav class="wrap nav" aria-label="Main">
+    <a class="logo" href="index.html" aria-label="DK, back to home"><img src="assets/dk-logo-a-rounded.svg" alt="DK" width="64" height="37"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <div class="nav-links" id="menu">
+      <a href="index.html">Home</a>
+      <a href="email-designs.html" aria-current="page">Email Designs</a>
+      <a class="btn" href="contact.html">Book a Call</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap"><h1>Sample email designs</h1></div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="wrap">
+      <div class="filters" id="filters" role="group" aria-label="Email categories"></div>
+      <div class="gallery" id="gallery"></div>
+      <p class="empty" id="empty" hidden>Designs for this category are coming soon.</p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta">
+      <h2>Ready to grow your email revenue?</h2>
+      <p>Tell me about your brand and I’ll show you where email can do more.</p>
+      <a class="btn btn-light" href="contact.html">Book a Call</a>
+    </div>
+  </section>
+</main>
+
+<dialog class="viewer" id="viewer" aria-label="Email designs">
+  <button type="button" class="viewer-close" id="viewer-close" aria-label="Close"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <div class="feed" id="feed"></div>
+</dialog>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <p class="foot-name">Dhinakaran</p>
+      <p>Email design and strategy for ecommerce brands.</p>
+      <a class="btn btn-sm" href="contact.html">Book a Call</a>
+    </div>
+    <nav aria-label="Pages"><h3>Pages</h3><a href="index.html">Home</a><a href="email-designs.html">Email Designs</a><a href="contact.html">Book a Call</a></nav>
+    <div class="foot-col"><h3>Services</h3><ul><li>Newsletter design</li><li>Email flows</li><li>Segmentation</li><li>Campaign planning</li></ul></div>
+    <nav aria-label="Contact"><h3>Contact</h3>
+      <!-- Replace these with your real email and Instagram link -->
+      <a href="mailto:your@email.com">your@email.com</a><a href="#">Instagram</a></nav>
+  </div>
+  <div class="wrap bottom"><p>© 2026 Dhinakaran</p><a href="#top">Back to top</a></div>
+</footer>
+
+<script src="script.js"></script>
+<script src="designs.js"></script>
+</body>
+</html>
